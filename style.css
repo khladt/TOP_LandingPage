@@ -103,6 +103,7 @@ body{
     flex: auto;
     flex-wrap: wrap;
     gap: 48px;
+    padding-top: 64px;
 }
 
 .card{
@@ -112,7 +113,8 @@ body{
     width: 256px;
     height: 256px;
     text-align: center;
-    padding-bottom: 64px;
+    padding-bottom: 86px;
+    font-size: 20px;
 }
 
 .card-img{
@@ -139,6 +141,21 @@ body{
 
 }
 
+.action{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex: 0;
+    background-color: #3882F6;
+    color: white;
+
+    margin: 128px;
+    margin-left: 400px;
+    margin-right: 400px;
+    padding: 32px;
+    border-radius:16px;
+}
+
 button{
     text-wrap: nowrap;
     color: white;
@@ -147,4 +164,12 @@ button{
     border-radius: 8px;
     font-size: 18px;
     padding: 8px;
+}
+
+.Action-SignUp{
+    font-size: x-large;
+
+    padding-left: 32px;
+    padding-right: 32px;
+    border: 3px solid white;
 }
